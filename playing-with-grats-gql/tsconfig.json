@@ -1,0 +1,17 @@
+{
+  "grats": {
+    "nullableByDefault": false,
+    "graphqlSchema": "./src/infrastructure/graphql/schema/schema.graphql",
+    "tsSchema": "./src/infrastructure/graphql/schema/schema.ts"
+  },
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "esnext",
+    "lib": [
+      "esnext"
+    ],
+    "strict": true
+  }
+}

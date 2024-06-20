@@ -1,0 +1,6 @@
+HelloWorld:
+  description: says hello
+  contentType: application/json
+  payload:
+    type: string
+    pattern: '^hello .+$'

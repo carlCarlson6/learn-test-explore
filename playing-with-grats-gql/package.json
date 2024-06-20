@@ -1,0 +1,28 @@
+{
+  "name": "playing-with-grats-gql",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "dev": "nodemon ./src/index.ts",
+    "build": "npc grats & npx tsc",
+    "schema": "npx grats --watch",
+    "schema:w": "npx grats --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "^20.11.25",
+    "@upstash/redis": "^1.28.4",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "graphql-yoga": "^5.1.1",
+    "grats": "^0.0.23",
+    "jose": "^5.2.3",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2",
+    "zod": "^3.22.4"
+  }
+}
